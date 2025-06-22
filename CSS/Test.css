@@ -1,0 +1,249 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.sale {
+    background-color: #FB7185;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 800px;
+}
+.close {
+    background-color: #ec4d65;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+/* Header */
+.header {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+    .header {
+    width: 750px;
+}
+}
+/* Medium */
+@media (min-width: 992px) {
+    .header {
+    width: 970px;
+}
+}
+/* Large */
+@media (min-width: 1200px) {
+    .header {
+    width: 1170px;
+}
+}
+.Logo {
+    background: linear-gradient(to right,#ec0f90, #da75e7);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+
+/* Global Rules */
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    width: 800px;
+    max-width: 600px;
+    border-radius: 30px;
+    }
+    .search input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    color: #555;
+    }
+
+    .search .icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #555;
+    }
+    .links {
+        color: #333;
+        text-decoration: none;
+        transition: 0.2s;
+}
+.links:hover {
+    color: #ec4d65;
+}
+nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding: 15px 40px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 5px 10px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+a:hover {
+    color: #ec4d65;
+}
+
+.hero {
+  justify-content: center;
+  padding: 60px 30px;
+  background-color: #fbeaf3;
+}
+
+.hero-content {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.badge {
+  background-color: #ffe0f0;
+  color: #ff3366;
+  padding: 10px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.line1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+}
+
+.line2 {
+    font-size: 50px;
+    font-weight: 800;
+    display: block;
+    background: linear-gradient(to right, #e81cff, #ff1361);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #e81cff, #ff1361);
+  color: white;
+  border: none;
+}
+.btn-primary:hover {
+    background: linear-gradient(to right, #ff1361, #e81cff);
+    transition: 0.2s;
+}
+
+.btn-secondary {
+  background: none;
+  border: 2px solid #ccc;
+  color: #333;
+}
+.btn-secondary:hover {
+    color: #e97586;
+    border-color: #e97586;
+    transition: 0.2s;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.stats div {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stats span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Global Rules */
+div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 50
+px;
+}
