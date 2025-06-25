@@ -28,13 +28,14 @@
             <input type="text" placeholder="Search for products, brands, and more...">
         </div>
         <div class="Links">
-            <a href="#"><i class="fa-regular fa-user"></i>Account</a>
-            <a href="#"><i class="fa-regular fa-heart"></i>Wishlist</a>
-            <a href="#"><i class="fas fa-shopping-bag"></i>Cart</a>
+            <a href="#"><i class="fa-regular fa-user"></i><span>Account</span></a>
+            <a href="#"><i class="fa-regular fa-heart"></i><span>Wishlist</span></a>
+            <a href="#"><i class="fas fa-shopping-bag"></i><span>Cart</span></a>
+            <a><i class="fas fa-bars toggle-menu"></i></a>
         </div>    
     </div>
     <nav>
-        <div class="Product">
+        
             <a href="#">Women</a>
             <a href="#">Men</a>
             <a href="#">Kids</a>
@@ -43,11 +44,10 @@
             <a href="#">Shoes</a>
             <a href="#">Accessories</a>
             <a href="#">Sports</a>
-        </div>
     </nav>
-<section class="hero">
-    <div class="hero-content">
-        <p class="badge">🔥 New Collection Drop</p>
+<section class="hero ">
+    <div class="hero-content container">
+        <p class="badgess">🔥 New Collection Drop</p>
 
         <h1>
             <span class="line1">Fashion That</span>
@@ -68,20 +68,233 @@
             <div><strong>50K+</strong> <span>Happy Customers</span></div>
             <div><strong>10K+</strong> <span>Products</span></div>
             <div><strong>99%</strong> <span>Satisfaction</span></div>
+        </div>    
+    </div>
+    <div class="hero-image">
+            <img src="image/japan-background-digital-art.jpg" alt="Fashion Model">
+    </div>
+</section>
+
+<section class="categories container">
+        <h2>Shop by Category</h2>
+        <p>Find exactly what you're looking for in our organized collections</p>
+    <div class="category-grid">
+            <div class="category-card">
+                <div class="category-overlay">
+                    <h3>Women's Fashion</h3>
+                    <p>Latest trends and styles</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-overlay">
+                    <h3>Men's Collection</h3>
+                    <p>Modern and classic styles</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-overlay">
+                    <h3>Accessories</h3>
+                    <p>Complete your look</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-overlay">
+                    <h3>Footwear</h3>
+                    <p>Step out in style</p>
+                </div>
+            </div>
+        </div>   
+</section>
+
+<section class="Trending-products">
+    <h2>Trending Now</h2>
+    <p>Discover the latest fashion trends and must-have pieces from our curated collection</p>
+    <div class="filters">
+        <div class="filter-tabs">
+            <button class="filter-tab active">All</button>
+            <button class="filter-tab">Women</button>
+            <button class="filter-tab">Men</button>
+            <button class="filter-tab">Dresses</button>
+            <button class="filter-tab">Tops</button>
+            <button class="filter-tab">Bottoms</button>
+            <button class="filter-tab">Accessories</button>
+        </div>
+    </div>
+    <div class="products-grid">
+        <div class="product-card">
+            <div class="product-image">
+                    <img src="image/japan-background-digital-art.jpg" alt="Product Image">
+                    <div class="badge new">New</div>
+                    <div class="badge sale" style="top: 56px;">-40%</div>
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="quick-add"><i class="fa-solid fa-camera-retro"></i> Quick Add</div>
+            </div>
+            <div class="product-info">
+                <div class="product-category">men</div>
+                    <h3 class="product-title">Floral Summer Dress</h3>
+                <div class="rating">
+                    <div class="stars">
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star empty"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <span class="rating-text">4.5 (128)</span>
+                </div>
+                <div class="price-section">
+                        <span class="current-price">$29.99</span>
+                        <span class="original-price">$49.99</span>
+                </div>    
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                    <img src="image/japan-background-digital-art.jpg" alt="Product Image">
+                    <div class="badge new">New</div>
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="quick-add"><i class="fa-solid fa-camera-retro"></i> Quick Add</div>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Dresses</div>
+                    <h3 class="product-title">Floral Summer Dress</h3>
+                <div class="rating">
+                    <div class="stars">
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star empty"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <span class="rating-text">4.6 (100)</span>
+                </div>
+                <div class="price-section">
+                        <span class="current-price">$59.99</span>
+                </div>    
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                    <img src="image/japan-background-digital-art.jpg" alt="Product Image">
+                    <div class="badge new">New</div>
+                    <div class="badge sale" style="top: 56px;">-40%</div>
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="quick-add"><i class="fa-solid fa-camera-retro"></i> Quick Add</div>
+            </div>
+            <div class="product-info">
+                <div class="product-category">Bottoms</div>
+                    <h3 class="product-title">Floral Summer Dress</h3>
+                <div class="rating">
+                    <div class="stars">
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star empty"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <span class="rating-text">4.3 (124)</span>
+                </div>
+                <div class="price-section">
+                        <span class="current-price">$25.99</span>
+                        <span class="original-price">$30.99</span>
+                </div>    
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                    <img src="image/japan-background-digital-art.jpg" alt="Product Image">
+                    <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    <div class="quick-add"><i class="fa-solid fa-camera-retro"></i> Quick Add</div>
+            </div>
+            <div class="product-info">
+                <div class="product-category">women</div>
+                    <h3 class="product-title">Floral Summer Dress</h3>
+                <div class="rating">
+                    <div class="stars">
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
+                        <span class="star empty"><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <span class="rating-text">4.8 (138)</span>
+                </div>
+                <div class="price-section">
+                        <span class="current-price">$49.99</span>
+                </div>    
+            </div>
         </div>
     </div>
 </section>
 
 
 
-
-
-
-
-
-
-
-
-
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section brand-section">
+                <div class="Logo">TRENDY</div>
+                <p class="brand-description">
+                    Your destination for the latest fashion trends. Quality clothing at affordable prices.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                </div>
+        </div>
+        <p>&copy; 2024 Trendy. All rights reserved.</p>
+    </div>
+    <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div> 
+    <div class="footer-section">
+        <h3>Categories</h3>
+        <ul class="footer-links">
+            <li><a href="#">Women's Fashion</a></li>
+            <li><a href="#">Men's Style</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+    </div>
+    <div class="footer-section">
+            <h3>Get in Touch</h3>
+            <ul class="contact-info">
+                <li>
+                    <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+                    1-800-TRENDY-1
+                </li>
+                <li>
+                    <span class="contact-icon"><i class="fa-regular fa-envelope"></i></span>
+                    help@trendy.com
+                </li>
+                <li>
+                    <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                    New York, NY
+                </li>
+            </ul>
+            
+            <div class="newsletter-section">
+                <h3>Subscribe to our newsletter</h3>
+                <div class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email">
+                    <button class="newsletter-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>       
+</footer>
 </body>
 </html>
