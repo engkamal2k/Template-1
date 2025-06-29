@@ -97,7 +97,7 @@ body {
   text-decoration: none;
   transition: 0.2s;
 }
-.links:hover {
+.links:hover,.active-link {
   color: #ec4d65;
 }
 nav {
@@ -369,7 +369,7 @@ p {
 .filters {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 30px;
   gap: 20px;
 }
@@ -377,6 +377,7 @@ p {
 .filter-tabs {
   display: flex;
   gap: 8px;
+  justify-content: center;
 }
 
 .filter-tab {
@@ -593,6 +594,11 @@ p {
   .filter-tabs {
     flex-direction: column;
   }
+}
+
+.load-more{
+      display: flex;
+    justify-content: center;
 }
 
 .more-products {
