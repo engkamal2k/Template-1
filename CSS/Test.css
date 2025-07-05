@@ -576,6 +576,10 @@ p {
 
 .product-card:hover .quick-add {
   transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
 }
 
 @media (max-width: 768px) {
@@ -633,6 +637,15 @@ p {
   gap: 50px;
   border-bottom: 1px solid #ddd;
 }
+
+@media (max-width: 720px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 .footer .footer-section {
   color: white;
 }
